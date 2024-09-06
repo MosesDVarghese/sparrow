@@ -1,11 +1,7 @@
-from solutions.math.p412_fizz_buzz import Solution
+# 1. import the problem
+from src.solutions.math import p412_fizz_buzz
 
-# create a solution instance
-sol = Solution()
+# 2. run problem
+p412_fizz_buzz.run()
 
-# run problem
-res = sol.fizzBuzz(n=15)
-
-# show result
-print(res)
-
+# 3. explore the project directory
